@@ -1,0 +1,31 @@
+package String_Study;
+
+import java.util.Scanner;
+
+public class Demn {
+	
+	
+
+	public static void main(String[] args) {
+		Scanner read=new Scanner (System.in);
+		System.out.println("Enter 2 words:");
+		String s6 = read.next();
+		String s7 =read.next();
+		String firstTwoCh = s6.substring(0, 2);
+		String lastTwoCh = s7.substring(s7.length()-2, s7.length());
+		
+		if( firstTwoCh.equals(lastTwoCh) ) {
+			System.out.println(true);
+			
+         }
+		
+		else {
+			System.out.println("false");
+		
+	    }	
+		
+		
+
+	}
+
+}

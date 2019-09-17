@@ -1,0 +1,18 @@
+package Assignments1;
+
+public class CompanyInfo {
+	
+	public static void main(StringManipulations[] args) {
+		StringManipulations companyname = "Facebook";
+		StringManipulations address = "Silicon Valley";
+		int number = 100;
+		long revenue = 4000000;
+		boolean tech = true;
+		System.out.println("Company name is "+companyname );
+		System.out.println("address is ..."+address);
+		System.out.println("Number of employees is "+number);
+		System.out.println("Annual revenue is "+revenue);
+		System.out.println("is iit tech company?-"+tech);
+	}
+
+}

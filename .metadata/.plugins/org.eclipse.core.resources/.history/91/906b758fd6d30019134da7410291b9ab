@@ -1,0 +1,14 @@
+package day18_StringClass_Continue;
+
+import java.util.Scanner;
+
+public class WarmUp {
+	public static void main(String[] args) {
+		Scanner input = new Scanner (System.in);
+		System.out.println("Enter your first and last names");
+		String firstName = input.nextLine();
+		String lastName = input.nextLine();
+		System.out.println("Initial is: "+firstName.substring(0)+lastName.substring(0));
+	}
+
+}

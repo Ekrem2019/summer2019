@@ -1,0 +1,72 @@
+package day13_Review;
+
+public class SwitchStatement {
+	
+	public static void main(String[] args) {
+		
+		int num =7;
+		switch (num) {
+		case 5:
+			System.out.println("sunday");
+			break;
+			
+			default: 
+				System.out.println("invalid entry");
+				break;
+			
+			case 10-3:
+				System.out.println("friday");
+				break;			
+		
+		}
+	
+	String days="monday";
+	switch (days) {
+			
+	case "birday":
+		System.out.println("fun day");
+		break;
+		
+	case "tuesday":
+		System.out.println("tuesday is great day");
+	break;
+
+	default:
+		System.out.println("invalid");
+	
+	case "wednesday":
+		System.out.println("wednesday is of day");
+		break;
+		
+		
+	
+}
+	String us="usa";
+	switch (us) {
+	case "us":
+	case"usa":
+	case"american":
+		System.out.println("american");
+	break;
+	default:
+		System.out.println("not american");
+	}
+		
+byte steps=100;
+short miles=5000;
+int count=1000000;
+long population=3434455667;	       
+	    
+    System.out.println(steps);
+    System.out.println(miles);
+    System.out.println(count);
+    System.out.println(population);		
+		
+	}
+		
+		
+	
+	
+	}
+
+

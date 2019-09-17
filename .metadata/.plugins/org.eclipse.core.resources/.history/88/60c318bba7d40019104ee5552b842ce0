@@ -1,0 +1,14 @@
+package String_Study;
+
+public class middlecharacter {
+	
+	public static void main(String[] args) {
+		double d=459.64;
+		int s=(int)d;
+		double d2=(int)459.64;
+		System.out.println(d2);
+	
+	
+	
+	}
+	}

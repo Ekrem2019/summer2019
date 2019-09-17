@@ -1,0 +1,14 @@
+package day15_Scanner_StringClass;
+
+import java.util.*;
+
+public class test {
+	
+	public static void main(String[] args) {
+		Scanner s = new Scanner(System.in);
+		String txt = s.next();
+		System.out.println("Enter info");
+		
+	}
+
+}

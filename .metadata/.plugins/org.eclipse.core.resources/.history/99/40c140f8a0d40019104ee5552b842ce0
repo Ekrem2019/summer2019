@@ -1,0 +1,18 @@
+package Assignments1;
+
+public class Name {
+	
+	public static void main(StringManipulations[] args) {
+		
+		
+		System.out.println("Ekrem");
+		System.out.println("Yasin");
+		System.out.println("Hakan");
+		System.out.println("Osman");
+		System.out.println("Ugur");
+		System.out.println("Hasan");
+		
+		
+	}
+
+}

@@ -1,0 +1,15 @@
+package Assignments;
+
+import java.util.Scanner;
+
+public class replit070 {
+public static void main(String[] args) {
+	
+	Scanner mail=new Scanner (System.in);
+	String email=mail.next();
+	
+	if (email.contains("alejandro")  {
+    	System.out.println("read this email");
+    }else {System.out.println("dont read");}
+}
+}

@@ -1,0 +1,29 @@
+package String_Study;
+
+import java.util.Scanner;
+
+public class Demn {
+	
+	
+
+	public static void main(String[] args) {
+		Scanner read=new Scanner (System.in);
+		System.out.println("Enter any word");	
+		String s11 = read.next();
+		int index = s11.length()-2;
+		String str=s11.substring(0);
+		
+		///String str = s11.substring(0,index)+s11.charAt(s11.length()-1)+ s11.charAt(s11.length()-2);
+		
+		
+		
+		//if(s11.length()>=2) {
+		//	System.out.println(str);
+		System.out.println(str);
+		}
+		
+		
+
+	}
+
+

@@ -1,0 +1,31 @@
+package day19_ForLoop;
+
+import java.util.Scanner;
+
+public class WarmUp {
+	public static void main(String[] args) {
+        Scanner scan = new Scanner(System.in);
+        System.out.println("Enetr your user name");
+        String user = scan.nextLine().toLowerCase();
+        System.out.println("Enter your password");
+        String pass = scan.nextLine();
+        
+        String username ="cybertek.BatCH12@gmail.com";
+        String password ="Javengers";
+        
+        if(user.endsWith("@gmail.com") ) {
+            if(user.equalsIgnoreCase(username) && pass.equals(password) ) {
+                System.out.println("Loged in successfully");
+            } else {
+                System.out.println("Invalid username or password");
+            }
+        } else {
+            System.out.println("it's not a valid email address");
+        }
+        
+        
+        
+        
+    }
+
+}

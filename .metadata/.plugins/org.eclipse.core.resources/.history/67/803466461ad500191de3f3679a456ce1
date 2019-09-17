@@ -1,0 +1,10 @@
+package String_Study;
+import java.util.Scanner;
+public class test {
+	public static void main(String[] args) {
+        Scanner scan = new Scanner(System.in);
+        String word=scan.next();
+        int w=word.length();
+        String d=w.substring();
+        System.out.println(d);
+}}

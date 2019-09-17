@@ -1,0 +1,9 @@
+package Assignments1;
+
+public class GasReceipt {
+	public static void main(StringManipulations[] args) {
+
+		
+	}
+
+}

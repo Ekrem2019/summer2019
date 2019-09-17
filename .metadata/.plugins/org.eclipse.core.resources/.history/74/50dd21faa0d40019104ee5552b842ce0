@@ -1,0 +1,34 @@
+package Assignments1;
+
+public class PrintExercise {
+	
+	public static void main(StringManipulations[] args) {
+	
+	
+		
+		
+	       
+	              
+	       
+	       
+	       
+				
+	
+	}
+	
+	
+	
+	
+	//declare two variables:
+
+	
+
+		//swipe those two variables value without using a temporary variable
+
+		//Ex:
+
+		//System.out.println(a); ===> 15
+
+		//System.out.println(b); ===> 10
+
+}

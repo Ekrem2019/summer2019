@@ -1,0 +1,25 @@
+package String_Study;
+
+import java.util.Scanner;
+
+public class checkwords {
+	public static void main(String[] args) {
+		
+		Scanner input = new Scanner (System.in);
+		System.out.println("Enter 3 words");
+		String w1=input.next();
+		String w2=input.next();
+		String w3=input.next();
+		// int n = name.length()  ; 
+		int v1 = w1.length();
+		int v2 = w2.length();
+		int v3 = w3.length();
+		System.out.println(v1);
+		
+		
+		
+		
+		
+	}
+
+}

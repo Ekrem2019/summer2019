@@ -1,0 +1,22 @@
+package day18_StringClass_Continue;
+
+import java.util.Scanner;
+
+public class WarmUp {
+	public static void main(String[] args) {
+		Scanner input = new Scanner (System.in);
+		System.out.println("Enter your first and last names");
+		String firstName = input.nextLine();
+		String lastName = input.nextLine();
+		// String initials = firstName.substring(0,1)+lastName.substring(0,1);
+		// initials=initials.toUpperCase();
+	//String initials = ""+firstName.charAt(0)+"."+lastName.charAt(0);
+//		System.out.println("Initial is: "+initials);
+		int FirstNameIndex=firstName.length()-1;
+		int LastnameIndex=lastName.length()-1;
+		
+		
+		String Lastletters=""+FirstNameIndex+"."+LastnameIndex();
+	}
+
+}

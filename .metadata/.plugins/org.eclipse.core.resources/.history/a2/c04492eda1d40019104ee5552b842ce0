@@ -1,0 +1,10 @@
+package String_Study;
+
+public class Task04 {
+	
+	int a = 10;
+	int b = 15;
+	
+	
+
+}

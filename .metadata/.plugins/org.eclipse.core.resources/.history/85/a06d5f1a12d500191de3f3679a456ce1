@@ -1,0 +1,18 @@
+package String_Study;
+import java.util.Scanner;
+public class test {
+	public static void main(String[] args) {
+        Scanner read = new Scanner(System.in);
+        System.out.println("Enter any word:");
+		String s5 = read.next();
+		String firstCh = ""+s5.charAt(0);
+		
+		
+		String lastCh =""+s5.charAt(s5.length()-1);
+		
+		if(firstCh.equals(lastCh)){
+			System.out.println("True");
+		}
+		else {
+			System.out.println("False");
+		}}}

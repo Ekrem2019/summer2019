@@ -1,0 +1,33 @@
+package String_Study;
+
+import java.util.Scanner;
+
+public class Demn {
+	
+	
+
+	public static void main(String[] args) {
+		Scanner read=new Scanner (System.in);
+		System.out.println("Enter 2 word");
+		String s9 = read.next();
+		String s10 = read.next();
+		int maxSize=0;
+		if(s9.length()==s10.length()) {
+			System.out.println(s9.concat(s10));
+		}
+		else if(s10.length()>s9.length()) {
+			maxSize = s9.length();
+			
+			
+			System.out.println(s9+""+(s10.substring(0,maxSize)));
+		}
+		else if(s9.length()>s10.length()) {
+			maxSize = s10.length();
+			System.out.println(s10+""+(s9.substring(0,maxSize)));
+		}
+		
+		
+
+	}
+
+}

@@ -1,0 +1,17 @@
+package String_Study;
+
+public class webaddress {
+	
+	public static void main(String[] args) {
+		String a1="www.amazon.com";
+		boolean	resulta= a1.contains("www.");
+		boolean resultb= a1.contains(".");
+		int b2=a1.indexOf("w.")+2;
+		int e2=a1.indexOf(".c");
+		String domain=a1.substring(b2,e2);
+		String extension=a1.substring(e2);
+		System.out.println("domain:"+domain);
+		System.out.println("extension:"+extension);
+	}
+
+}

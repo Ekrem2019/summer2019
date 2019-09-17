@@ -1,0 +1,30 @@
+package Assignments;
+import java.util.*;
+public class replit065 {
+public static void main(String[] args) {
+	Scanner scan = new Scanner(System.in);
+    String word = scan.next();
+    int jaja = word.length();
+    if(jaja/2>=3 && jaja %2 ==1) {
+    
+    
+   char task1 = (word.charAt((word.length()/2)-1));
+   for(int i =1; i <=3 ; i ++) {
+   System.out.print(task1);
+   }
+    }else if(jaja/2>=4 && jaja%2 == 0) {
+            
+            int begin = (word.length() / 2) -1;
+            int end = (word.length()/2)+1;
+           String task1 = word.substring(begin , end);
+           // return str.substring(str.length() / 2 - 1, str.length() / 2 + 1);
+           // https://github.com/mirandaio/codingbat/blob/master/java/string-1/middleTwo.java
+          for(int i = 1; i <=2; i++) {
+           System.out.print(task1);
+  
+          }
+//consulted team member - he/she/they told me that line 23 had a curly - but needed parantheses for if-else
+        }
+    
+}
+}

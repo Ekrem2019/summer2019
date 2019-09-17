@@ -1,0 +1,16 @@
+package day15_Scanner_StringClass;
+
+import java.util.Scanner;
+
+public class StringInput {
+public static void main(String[] args) {
+	Scanner scan = new Scanner (System.in);
+	System.out.println("enter your first name");
+	String firstname=scan.nextLine();
+	System.out.println("enter your last name");
+	String lastname=scan.nextLine();
+	
+	System.out.println(firstname+" "+lastname);
+	
+}
+}

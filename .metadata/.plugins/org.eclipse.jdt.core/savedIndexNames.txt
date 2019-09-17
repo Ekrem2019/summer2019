@@ -1,0 +1,3 @@
+INDEX VERSION 1.131+C:\Users\egule\eclipse-workspace\Summer2019_Java\.metadata\.plugins\org.eclipse.jdt.core
+113558702.index
+2540452368.index

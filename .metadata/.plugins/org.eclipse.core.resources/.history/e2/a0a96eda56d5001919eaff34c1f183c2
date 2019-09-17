@@ -1,0 +1,9 @@
+package String_Study;
+
+public class test {
+	public static void main(String[] args) {
+		
+		
+		for (int co = 1; co <= 30; co+=5)
+			{System.out.println(co);}
+}}

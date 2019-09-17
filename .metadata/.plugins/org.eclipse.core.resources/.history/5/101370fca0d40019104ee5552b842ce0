@@ -1,0 +1,17 @@
+package Assignments1;
+import java.util.*;
+public class WhatILearned {
+	
+	  public static void main(StringManipulations[] args) {
+		    Scanner input = new Scanner(System.in);
+		    System.out.println("Enter number:");
+		    int x = input.nextInt();	
+		    StringManipulations str = "x is greater than or equal to 5";
+		    StringManipulations str1 = "z is less than 5"		;
+		 //if (x>=5) {System.out.println("x is greater than or equal to 5");}
+		 //else {System.out.println("z is less than 5");}
+		    
+	//	int x>=5 ?   str : str1 ;
+		
+		    
+}}

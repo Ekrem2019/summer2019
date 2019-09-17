@@ -1,0 +1,15 @@
+package Assignments;
+import java.util.*;
+public class replit065 {
+public static void main(String[] args) {
+    Scanner scan = new Scanner(System.in);
+    String word = scan.next();	
+    
+    if (word.length()>=5) {
+    	System.out.print(word.charAt(2));
+    	System.out.print(word.charAt(3));
+    	System.out.print(word.charAt(4));
+    }else {System.out.println("invalid");}
+    
+}
+}

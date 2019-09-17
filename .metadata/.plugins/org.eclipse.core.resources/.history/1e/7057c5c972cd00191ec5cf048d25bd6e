@@ -1,0 +1,40 @@
+package Assignments;
+import java.io.IOException;
+import java.util.Scanner;
+
+public class Ex_1 {
+	
+public static void main(String[] args) throws IOException{
+
+Scanner giris = new Scanner(System.in);
+int i;
+
+System.out.println("Butterfly Tour");
+System.out.println("(1) middle europe");
+System.out.println("(2) america");
+System.out.println("(3) far east");
+System.out.println("make choose");
+
+i=giris.nextInt();
+switch(i) {
+case 1 :
+	System.out.println("flight Vienna, prag");
+	System.out.println("4 stars hotels");
+	break;
+case 2 :
+	System.out.println("flight newyork");
+	System.out.println("5 starrs hotels");
+	break;
+case 3:
+	System.out.println("flight hongkong");
+	System.out.println("4 stars hotels $1300");
+	System.out.println("5 stars hotels $1700");
+	System.out.println("business class $2500");
+	break;
+default :
+	System.out.println("wrong choose put 1,2 or 3");
+	break;
+	
+}
+}
+}

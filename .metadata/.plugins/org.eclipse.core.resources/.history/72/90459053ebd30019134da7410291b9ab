@@ -1,0 +1,52 @@
+package day18_StringClass_Continue;
+
+public class StringMethods_Boolean {
+	public static void main(String[] args) {
+		String str="Cybertek";
+		boolean R1=str.isEmpty();
+		System.out.println(R1);
+		
+		String str2="";
+		if (str2.isEmpty()) {System.out.println("it's empty String");
+	}else {System.out.println("it's not empty");}
+
+		String A1="Cybertek";
+		String A2=new String("Cybertek");
+		System.out.println(A1==A2);//false
+		
+		boolean R2=A1.contentEquals(A2);
+		System.out.println(R2);
+		
+		System.out.println("java".equals("Java")); // false case sensitivity
+		
+		String s1="Java";
+		String s2=new String("java");
+		System.out.println(s1==s2);//false , different location
+		System.out.println(s1.contentEquals(s2));//false, case sensitivity
+		System.out.println(s1.equalsIgnoreCase(s2));//true
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+}
+}

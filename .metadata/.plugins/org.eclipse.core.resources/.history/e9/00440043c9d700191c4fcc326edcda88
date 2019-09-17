@@ -1,0 +1,14 @@
+package Assignments;
+import java.util.*;
+public class replit069 {
+	public static void main(String[] args) {
+		
+	    Scanner scan = new Scanner(System.in);
+	    String word = scan.next();	
+		
+		System.out.print(word.length()/2);
+
+		
+		
+	}
+}

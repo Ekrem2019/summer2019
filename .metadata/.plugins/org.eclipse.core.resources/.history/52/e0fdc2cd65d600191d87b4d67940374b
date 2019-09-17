@@ -1,0 +1,15 @@
+package day20_JavaReview;
+
+public class StringMethods {
+	public static void main(String[] args) {
+		String str="Cyebertek School";// String Literals
+		str.substring(0, str.indexOf("k")+1);
+		System.out.println(str);// Cyebertek, String is immutable
+		
+		String  a1="cybertek";
+		char ch= a1.charAt('c');
+		System.out.println(ch);
+				
+	}
+
+}

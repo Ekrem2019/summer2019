@@ -1,0 +1,14 @@
+package String_Study;
+import java.util.Scanner;
+public class test {
+	public static void main(String[] args) {
+        Scanner read = new Scanner(System.in);
+		System.out.println("Enter 2 words:");
+		String s1 = read.next();
+		String s2 = read.next();
+		int d  = s1.length();
+		int c = s2.length();
+		
+		
+			System.out.println((s1.substring(0,1))+(s2.substring(1)));
+		}}

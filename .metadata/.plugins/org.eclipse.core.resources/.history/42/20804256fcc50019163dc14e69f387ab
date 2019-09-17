@@ -1,0 +1,15 @@
+package day09_Review;
+
+public class If_Statement {
+	
+	/*
+	 if statements: 
+	 single if statement: 
+	 if (boolean expression){
+	 		some codes to run
+	 		}
+	 	if block only gets executed if the condition is true
+	 	
+	 
+	 */
+

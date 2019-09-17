@@ -1,0 +1,17 @@
+package day10_Assignments;
+
+public class Task3 {
+	public static void main(String[] args) {
+				
+		int f1=100;
+		int f2=200;
+		int f3=300;
+		
+		System.out.println(f1+f2+f3);
+	}
+	
+	
+	
+	
+
+}
